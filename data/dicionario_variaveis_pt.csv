@@ -1,0 +1,39 @@
+Variável,Descrição,Tipo,Subtipo
+Data_Hora,"Timestamp dos dados (horário, de Jan 2019 a Jan 2024)",Quantitativa,Datetime
+Nivel_Vibracao,Nível de vibração da máquina (unidades arbitrárias),Quantitativa,Contínua
+Temperatura_Interna,Temperatura interna da máquina (°C),Quantitativa,Contínua
+Pressao,Medições de pressão (Pa),Quantitativa,Contínua
+Sinais_Acusticos,Sinais sonoros produzidos pela máquina (dB),Quantitativa,Contínua
+Nivel_Umidade,Nível de umidade no ambiente da máquina (%),Quantitativa,Contínua
+Velocidade_Motor,Velocidade do motor da máquina (RPM),Quantitativa,Contínua
+Torque,Torque aplicado pelo motor (Nm),Quantitativa,Contínua
+Consumo_Energia,Consumo de energia da máquina (kWh),Quantitativa,Contínua
+Taxa_Producao,Taxa de produção (unidades/hora),Quantitativa,Contínua
+Taxa_Desgaste_Ferramenta,Percentual de desgaste da ferramenta (%),Quantitativa,Contínua
+Taxa_Uso_Maquina,Percentual de tempo em operação (%),Quantitativa,Contínua
+Tempo_Ciclo,Tempo para completar um ciclo operacional (s),Quantitativa,Contínua
+Tempo_Ocioso,Percentual de tempo em inatividade (%),Quantitativa,Contínua
+Carga_Maquina,Percentual de carga na máquina (%),Quantitativa,Contínua
+Temperatura_Ambiente,Temperatura ambiente (°C),Quantitativa,Contínua
+Umidade,Umidade relativa do ambiente (%),Quantitativa,Contínua
+Indice_Qualidade_Ar,Índice de qualidade do ar (0 a 500),Quantitativa,Contínua
+Indice_Saude_Maquina,Índice de saúde da máquina (0 a 100),Quantitativa,Contínua
+Indicadores_Falha,"Indicador binário de modos de falha (0 = sem falha, 1 = falha)",Qualitativa,Binária
+Registro_Manutencao,Indicador de eventos de manutenção,Qualitativa,Binária
+Falhas_Anteriores,"Indicador de falhas recentes (0 = não, 1 = sim)",Qualitativa,Binária
+Pontuacao_Manutencao_Preditiva,Score preditivo para eventos de manutenção (0 a 100),Quantitativa,Contínua
+Indice_Degradacao_Componentes,Índice de degradação de componentes (0 a 100),Quantitativa,Contínua
+Indice_Desempenho_Tempo_Real,Índice de desempenho em tempo real (0 a 100),Quantitativa,Contínua
+Eventos_Ligar_Desligar,Indicador binário de eventos ligar/desligar,Qualitativa,Binária
+Incidentes_Parada,Indicador binário de incidentes de parada,Qualitativa,Binária
+Eventos_Gatilho_Falha,Indicador binário de eventos que causaram falha,Qualitativa,Binária
+Setpoints_Controlador,Valores de referência do controlador,Quantitativa,Contínua
+Diferenca_Real_vs_Setpoint,Diferença entre valores reais e setpoints,Quantitativa,Contínua
+Alarmes,Indicador binário de eventos de alarme,Qualitativa,Binária
+Registros_Reparo,Indicador binário de reparos da máquina,Qualitativa,Binária
+Uso_Pecas_Reposicao,Quantidade de peças utilizadas durante manutenção,Quantitativa,Contínua
+Pontuacao_Anomalia,Score de detecção de anomalias (0 a 100),Quantitativa,Contínua
+Probabilidade_Falha,Probabilidade de ocorrência de falha (0 a 100),Quantitativa,Contínua
+Turno_Operador,"Informação do turno do operador (1 = manhã, 2 = tarde, 3 = noite)",Qualitativa,Ordinal
+Resultados_Controle_Qualidade,Resultados de testes de controle de qualidade (0 a 100),Quantitativa,Contínua
+Diagnostico_Falha,"Label alvo da severidade da falha (0 = sem, 1 = menor, 2 = moderada, 3 = severa, 4 = crítica)",Qualitativa,Multiclasse
